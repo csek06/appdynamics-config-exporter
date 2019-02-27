@@ -1,4 +1,6 @@
 # AppDynamics Config Exporter
+### Current Required Steps
+* Auto Download not working, place 'config-exporter-4.5.2.1-BETA.war' in the /config directory. Ensure it is that exact name...
 
 This is a docker container for Config Exporter of AppDynamics - https://tools.appdynamics.com/
 

@@ -29,4 +29,4 @@ echo "Setting correct permissions"
 chown -R nobody:users /config
 
 echo "Starting AppDynamics Config Exporter"
-java -jar config-exporter-"$VERSION".war 2>&1 | tee /config/config-exporter-"$VERSION".log
+java -jar config-exporter-"$VERSION"-BETA.war 2>&1 | tee /config/config-exporter-"$VERSION".log
